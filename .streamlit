@@ -1,3 +1,2 @@
-mkdir -p .streamlit
-touch .streamlit/config.toml
-open -e .streamlit/config.toml
+[server]
+maxUploadSize = 10000
